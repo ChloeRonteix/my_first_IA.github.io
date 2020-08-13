@@ -1,0 +1,13 @@
+body {
+  background: #f3e6e3;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  color: #776d8a;
+}
+#my-submit {
+  font-family: 'Acme', sans-serif;
+  color: #776d8e;
+  background: #d3c09a;
+  border-style: double;
+  border-color: #776d8e;
+}
