@@ -1,4 +1,5 @@
 const createMessage = (answer) => {
+  //let boldanswer = document.getElementById("user-answer").style.fontWeight = "900";
   let username = answer.toLowerCase();
   const array = ["c", "h", "l", "o", "e"];
   let c = 0;
@@ -7,12 +8,7 @@ const createMessage = (answer) => {
       c++;
     }
   });
-  // for (const i of array) {
-  //   if (username.includes(i)) {
-  //     c++;
-  //   }
-  // }
-  return `Nous avons ${c} lettres en commun`;
+  return `Tu t'appelles ${answer}! Nous avons ${c} lettres en commun`;
 };
 
 const form = document.getElementById("my-form");
